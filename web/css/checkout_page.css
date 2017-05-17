@@ -1,0 +1,20 @@
+fieldset{
+    border:none !important;
+}
+
+#checkoutMain{
+    margin:0px auto;
+    width:17rem;
+}
+
+#checkoutForm label{
+    display:block;
+}
+
+.frm-error{
+    color:red;
+}
+
+#checkoutForm{
+    margin: 0px auto;
+}

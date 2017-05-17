@@ -1,0 +1,19 @@
+table{
+    border-collapse:collapse;
+    width:90%;
+    margin:4em auto;
+    font-size:1rem;
+}
+
+td,th{
+    text-align: left;
+    padding:6px;
+}
+
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+
+#customer-information,#confirmation-title-date{
+    margin-left:4rem;
+}

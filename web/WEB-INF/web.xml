@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <jsp-config>
+        <jsp-property-group>
+            <description>JSP configuration for the store front</description>
+            <url-pattern>/index.jsp</url-pattern>
+            <url-pattern>/WEB-INF/view/*</url-pattern>
+            <include-prelude>/WEB-INF/jspf/header.jspf</include-prelude>
+            <include-coda>/WEB-INF/jspf/footer.jspf</include-coda>
+        </jsp-property-group>
+    </jsp-config>
+    <context-param>
+        <description>The relative path to product images</description>
+        <param-name>bookImages</param-name>
+        <param-value>img/book_images/</param-value>
+    </context-param>
+    <context-param>
+        <description>Relative path to site images</description>
+        <param-name>siteImages</param-name>
+        <param-value>img/site_images/</param-value>
+    </context-param>
+    <context-param>
+        <description>Shipping surcharge</description>
+        <param-name>surcharge</param-name>
+        <param-value>500</param-value>
+    </context-param>
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+</web-app>
+

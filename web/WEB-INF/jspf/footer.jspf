@@ -1,0 +1,21 @@
+    </div><!--/#page-content-->
+    <!--/page content-->
+    </div><!--/#page-container-->
+    <!--footer-->
+    <footer id="page-footer">
+        <div id="contact-directions">
+            <strong><a href="#">CONTACT</a> | <a href="#">DIRECTIONS</a></strong>
+        </div>
+        <div id="social-links">
+            <ul>
+                <li><a href="#"><img src="${initParam.siteImages}facebook.jpeg"></a></li>
+                <li><a href="#"><img src="${initParam.siteImages}twitter.png"></a></li>
+                <li><a href="#"><img src="${initParam.siteImages}googlePlus.jpeg"></a></li>
+            </ul>
+        </div>
+        <div id="copyright">
+            Copyright &copy; 2017. PAPER WINGS READING LLC.
+        </div>
+    </footer>
+</body>
+</html>
